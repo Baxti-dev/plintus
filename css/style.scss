@@ -1,0 +1,64 @@
+.section_bg{
+    background-image: url(../img/Главный\ экран.png ) ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.section_service{
+    background: rgba(19, 19, 19, 0.80);
+    backdrop-filter: blur(5px);
+}
+.section_block{
+    width: 323px;
+    height: 135px;
+    border-radius: 5px;
+    background: var(--unnamed, #18A4E1);
+    backdrop-filter: blur(5px);
+
+    @media (max-width:1200px) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    @media (max-width: 364px) {
+        width: 100%;
+    }
+}
+.section_mother-block{
+
+    @media (max-width:1200px) {
+        flex-direction: column;
+    }
+}
+.section_title{
+    @media (max-width:1200px) {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.section_img{
+    @media (max-width:1370px) {
+        width: 100%;
+    }
+}
+.section_work{
+    background: #18A4E1;
+    transition: 2s linear;
+
+   &-2{
+    @media (max-width:450px) {
+        flex-direction: column;
+    }
+   }
+
+    &-h1{
+        padding: 20px;
+        border-radius: 20px;    
+
+        &:hover{
+            background: #053354;
+            transition: 2ms linear;
+            
+        }
+    }
+}

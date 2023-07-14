@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.section_bg {
+  background-image: url(../img/Главный\ экран.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section_service {
+  background: rgba(19, 19, 19, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.section_block {
+  width: 323px;
+  height: 135px;
+  border-radius: 5px;
+  background: var(--unnamed, #18A4E1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+@media (max-width: 1200px) {
+  .section_block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 364px) {
+  .section_block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section_mother-block {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section_title {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1370px) {
+  .section_img {
+    width: 100%;
+  }
+}
+
+.section_work {
+  background: #18A4E1;
+  transition: 2s linear;
+}
+@media (max-width: 450px) {
+  .section_work-2 {
+    flex-direction: column;
+  }
+}
+.section_work-h1 {
+  padding: 20px;
+  border-radius: 20px;
+}
+.section_work-h1:hover {
+  background: #053354;
+  transition: 2ms linear;
+}/*# sourceMappingURL=style.css.map */
